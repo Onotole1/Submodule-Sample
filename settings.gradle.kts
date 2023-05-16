@@ -13,5 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Credits Demo"
-include ':app'
-include ':main:'
+include(":app")
+include(":main:credits")
+include(":main:credits-core")
+include(":main:products-core")
+include(":main:app")
